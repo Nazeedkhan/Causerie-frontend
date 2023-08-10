@@ -1,0 +1,104 @@
+.register_button {
+  font-family: "Arizonia", cursive;
+  color: white;
+  padding: 0.8rem;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.register_button:hover {
+  background-color: #3500c7;
+}
+
+.registerImg {
+  height: 5rem;
+}
+
+.registerH1 {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Arizonia", cursive;
+}
+
+.registerBrands {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.register_link {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Arizonia", cursive;
+}
+
+.register_span {
+  color: white;
+  text-transform: uppercase;
+}
+
+.register_input {
+  background-color: white;
+  padding: 0.8rem;
+  border: 0.1rem solid #887e7e;
+  border-radius: 20px;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.register_input:focus {
+  border: 0.1rem solid #997af0;
+  outline: none;
+}
+
+.register_form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: #00000076;
+  border-radius: 2rem;
+  padding: 2rem 4rem;
+}
+
+.registerContainer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+@media (min-width: 400px) and (max-width: 480px) {
+  .register_form {
+    margin: 1rem;
+  }
+  .register_span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .register_form {
+    margin: 0;
+    padding: 2rem 30px;
+    margin: 0 1rem;
+  }
+  .register_span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: none;
+  }
+}

@@ -1,0 +1,19 @@
+@media (max-width:770px){
+
+    .chat_container {
+        height: 100vh;
+        width: 100vw;
+        background-color: #00000076;
+        display: grid;
+        grid-template-columns: 0% 100%;
+    }
+}
+@media (max-width: 770px) {
+
+    .content {
+        max-width: 70%;
+      }
+      .sended {
+        width: 80vw;
+      }
+  }

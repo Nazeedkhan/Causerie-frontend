@@ -1,0 +1,17 @@
+.submit {
+    width: 7vw;
+  }
+@media (max-width: 770px) {
+  .button-container {
+    position: absolute;
+    left: 10px;
+  }
+  .input-container {
+    position: absolute;
+    right: 10px;
+    width: 82%;
+  }
+  .submit {
+    width: 25%;
+  }
+}

@@ -1,0 +1,109 @@
+.avatar_loader {
+  max-inline-size: 100%;
+}
+.avatar_container_1_h1 {
+  color: white;
+  font-size: 26px;
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+}
+
+.avatar_container_1 {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  height: 100vh;
+  width: 100vw;
+}
+
+.avatar_container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  height: 100vh;
+  width: 100vw;
+  /* background-color: #131324; */
+}
+
+.avatar_h1 {
+  color: white;
+  font-family: "Arizonia", cursive;
+}
+.avatar_title-container .avatar_h1 {
+  color: white;
+}
+
+.avatar_img {
+  height: 6rem;
+  transition: 0.5s ease-in-out;
+}
+
+.avatar_avatar {
+  border: 0.4rem solid transparent;
+  padding: 0.4rem;
+  border-radius: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease-in-out;
+}
+
+.avatar_selected {
+  border: 0.4rem solid #4e0eff;
+}
+.avatar_avatars {
+  display: flex;
+  gap: 2rem;
+}
+.avatar_submit-btn {
+  background-color: #131324;
+  font-family: "Arizonia", cursive;
+  background-color: #4e0eff;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.avatar_submit-btn2 {
+  background-color: #131324;
+  font-family: "Arizonia", cursive;
+  background-color: #311188;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.avatar_submit-btn:hover {
+  background-color: #4e0eff;
+}
+
+@media (max-width:770px){
+  .avatar_h1{
+    text-align: center;
+  }
+  .avatar_img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 5rem;
+  }
+  .avatar_avatar{
+    padding: 0;
+    margin: 0 -10px;
+  }
+}

@@ -1,0 +1,20 @@
+.styles {
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  /* width: 98vw; */
+ height: 75vh;
+
+}
+
+.slides {
+  border-radius: 10px;
+  height: 75vh;
+
+}
+
+.chat-container {
+  overflow: hidden;
+  transition: 2.5s ease-in-out; /* Adjust the duration and timing function as needed */
+}
